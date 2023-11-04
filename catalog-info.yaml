@@ -1,0 +1,14 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: a8
+  description: remove
+  annotations:
+    backstage.io/kubernetes-id: a8
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: neenspa/a8
+spec:
+  type: api
+  lifecycle: production
+  owner: amargheritini
